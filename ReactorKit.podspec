@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "ReactorKit"
+  s.name             = "ReactorKitBuildTest"
   s.version          = "3.2.0"
   s.summary          = "A framework for reactive and unidirectional Swift application architecture"
   s.homepage         = "https://github.com/ReactorKit/ReactorKit"
