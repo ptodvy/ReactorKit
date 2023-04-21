@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ReactorKit"
-  s.version          = "3.2.0-Test"
+  s.version          = "3.2.0-Test.2"
   s.summary          = "A framework for reactive and unidirectional Swift application architecture"
   s.homepage         = "https://github.com/ReactorKit/ReactorKit"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.frameworks   = "Foundation"
   s.swift_version = "5.0"
   s.dependency "RxSwift", "~> 6.0"
-  s.dependency "WeakMapTable", "~> 1.2.1"
+  s.dependency "WeakMapTable", "1.2.1"
 
   s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.11"
